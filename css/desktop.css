@@ -41,10 +41,16 @@
 .content__text__row--left-row {
   margin-top: 77px;
 }
-/*.content__text__right-row {
-    flex: 1;
+
+.content__boxes__row {
+    display: flex;
+    flex-direction: row;
 }
 
-.content__text__left-row {
+.content__boxes__box--big-box {
+    flex: 2;
+}
+
+.content__boxes__box--small-box {
     flex: 1;
-}*/
+}

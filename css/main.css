@@ -7,21 +7,23 @@
 
 html {
     width: 100%;
-    height: 100%;
+    height: auto;
 }
 
 body {
     font-family: 'Lato', sans-serif;
     width: 100%;
-    height: 100%;
+    height: auto;
 }
 
 .container {
+  min-height: 100%;
+  height: auto;
   width: 100%;
-  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  padding-bottom: 30px;
 }
 
 .navigation {
@@ -46,10 +48,24 @@ body {
   font-weight: 600;
 }
 
+.main-image__text-box {
+  color: #fff;
+  max-width: 80%;
+  margin: auto;
+}
+
+.main-image__text-box > h2 {
+  margin-bottom: 20px;
+}
+
 .content {
   max-width: 80%;
   margin: auto;
 
+}
+
+.content__text {
+  margin-bottom: 30px;
 }
 
 .content__title {
@@ -58,12 +74,62 @@ body {
   height: 100px;
 }
 
-.content__title > h3 {
+h3 {
   font-size: 30px;
   font-weight: 400;
+}
+.content__title > h3 {
   color: #767878;
 }
+
 .iphone-image {
   transform: translateY(-85%);
   height: 874px;
+}
+
+.content__boxes {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+
+.content__boxes__box {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  min-height: 150px;
+  margin: 0;
+}
+
+.content__boxes__box > h3 {
+  margin-bottom: 20px;
+}
+
+.content__boxes__box > p {
+  max-width: 330px;
+}
+
+.u-flex-end {
+  margin-top: auto;
+}
+
+.u-font-bold {
+  font-weight: bold;
+}
+
+.u-background-grey {
+  background-color: #43463e;
+}
+
+.u-background-dark-green {
+  background-color: #37461d;
+}
+
+.u-background-dark-blue {
+  background-color: #091e28;
+}
+
+.u-background-light-green {
+  background-color: #73933c;
 }
