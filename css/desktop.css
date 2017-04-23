@@ -23,6 +23,18 @@
   justify-content: center;
 }
 
+.navigation__icons {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+  width: 100%;
+  align-items: center;
+}
+
+.navigation__icons--icon {
+  margin-right: 50px;
+}
+
 .content__text {
   display: flex;
   justify-content: space-between;
