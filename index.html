@@ -4,12 +4,54 @@
     <meta charset="UTF-8">
     <title>Simple RWD Layout</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/mobile.css" /> 
-    <link rel="stylesheet" media="screen and (min-width: 769px)" href="css/desktop.css" />   
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/mobile.css" />
+    <link rel="stylesheet" media="screen and (min-width: 769px)" href="css/desktop.css" />
 </head>
 <body>
-   
-   <p>TEST TEST</p>
+
+    <div class="container">
+
+       <!-- main image and title -->
+        <div class="main-image">
+            <!-- top navigation -->
+            <nav class="navigation">
+                <h1>Beside the park</h1>
+                <div class="navigation__icons"> Tu będą ikonki w desktopie </div>
+            </nav>
+
+            <div class="main-image__text-box">
+                <h2>Lorem ipsum</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus pretium, justo quis dignissim consequat, libero nibh cursus urna, non pharetra.</p>
+            </div>
+        </div>
+
+       <!-- text content -->
+        <div class="content">
+            <div class="content__title">
+                <h3>Lorem ipsum</h3>
+                <img class="iphone-image" src="img/desktop/Web_0007_iPhone.png" />
+            </div>
+
+            <div class="content__text">
+                <div class="content__text__row">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in suscipit magna. Donec et consequat mauris. Ut commodo, orci sed accumsan maximus, dui erat interdum nulla, in feugiat elit nisl at lacus.</p>
+
+                    <p>Donec enim risus, viverra non sagittis non, aliquet ac dolor. Phasellus at lobortis dui, in congue massa. Donec ac tortor ex. Integer eu semper urna, vitae cursus risus. Morbi at condimentum mauris. Etiam turpis nisl, molestie sed hendrerit ornare, gravida scelerisque nunc.</p>
+
+                    <p>Duis molestie auctor blandit. Praesent felis ipsum, ultrices eget mollis non, dictum ac tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec tincidunt magna in ipsum fermentum, a posuere arcu efficitur. Sed congue sem ligula, vel vehicula mi ultricies id.</p>
+                </div>
+                <div class="content__text__row content__text__row--left-row">
+                    <p>Phasellus vulputate metus a justo tristique tempor. Donec ac eros porttitor, ullamcorper elit sed, tincidunt purus. </p>
+                    <p>Proin convallis suscipit mi, ut congue diam. Donec et sem dictum, vestibulum mauris vel, bibendum elit. Vivamus accumsan dignissim felis et imperdiet. Vivamus convallis nibh a venenatis facilisis. Sed vel gravida nisl.</p>
+                </div>
+            </div>
+
+        </div>
+
+
+   </div>
+
    <script src="js/app.js"></script>
 </body>
 </html>

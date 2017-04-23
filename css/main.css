@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.navigation {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  text-align: center;
+  min-height: 100px;
+  display: block;
+  background: rgba(256, 256, 256, 0.7);
+
+}
+
+.navigation > h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  color: #9bc651;
+  font-weight: 600;
+}
+
+.content {
+  max-width: 80%;
+  margin: auto;
+
+}
+
+.content__title {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+}
+
+.content__title > h3 {
+  font-size: 30px;
+  font-weight: 400;
+  color: #767878;
+}
+.iphone-image {
+  transform: translateY(-85%);
+  height: 874px;
+}
