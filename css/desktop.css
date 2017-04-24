@@ -1,4 +1,8 @@
 /**
+ * Only desktop view
+ */
+
+/**
  * Top section and navigation
  */
 
@@ -30,7 +34,6 @@
 
 .navigation__icons--icon {
   margin-right: 75px;
-  /*//transition: all .9s ease-in-out;*/
   -webkit-transition: all .2s ease-in;
   -webkit-transform: scale(1);
   -ms-transition: all .2s ease-in;
@@ -39,6 +42,7 @@
   -moz-transform: scale(1);
   transition: all .2s ease-in;
   transform: scale(1);
+  z-index: 2;
 }
 
 .navigation__icons--icon:hover {
@@ -64,7 +68,6 @@
 /**
  * Content title, text & iPhone image
  */
-
 .content {
   max-width: 65%;
 }
@@ -93,15 +96,6 @@
 .content__text__row--first {
   width: 50%;
 }
-
-.u-margin-right-10 {
- margin-right: 10px;
-}
-
-.u-margin-left-10 {
- margin-left: 10px;
-}
-
 
 /**
  * Bottom boxes

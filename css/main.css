@@ -20,6 +20,11 @@ p {
   line-height: 24px;
 }
 
+h3 {
+  font-size: 35px;
+  font-weight: 300;
+}
+
 .container {
   min-height: 100%;
   height: auto;
@@ -30,6 +35,9 @@ p {
   padding-bottom: 30px;
 }
 
+/**
+ * Top section and navigation
+ */
 .navigation {
   position: absolute;
   top: 0;
@@ -77,7 +85,9 @@ p {
   font-size: 13px;
 }
 
-
+/**
+ * Content title, text & iPhone image
+ */
 .content {
   max-width: 85%;
   margin: auto;
@@ -99,11 +109,9 @@ p {
   color: #959595;
 }
 
-h3 {
-  font-size: 35px;
-  font-weight: 300;
-}
-
+/**
+ * Content boxes
+ */
 .content__boxes {
   display: flex;
   flex-direction: column;
@@ -137,6 +145,9 @@ h3 {
   font-weight: 700;
 }
 
+/**
+ * Utilities
+ */
 .u-flex-end {
   margin-top: auto;
 }
@@ -159,6 +170,14 @@ h3 {
 
 .u-background-light-green {
   background-color: #73933c;
+}
+
+.u-margin-right-10 {
+ margin-right: 10px;
+}
+
+.u-margin-left-10 {
+ margin-left: 10px;
 }
 
 /**

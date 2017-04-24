@@ -9,10 +9,6 @@ const navigationBar = document.querySelector('.navigation');
 
 const hiddenTextNodes = document.querySelectorAll('.js-hidden-text');
 
-// const windowHeight = document.documentElement.clientHeight
-
-// console.dir(iphoneImageParent)
-// console.log(windowWidth, windowHeight)
 /**
  * Functions
  */
@@ -44,15 +40,16 @@ function resizeNavigationBarDesktop() {
     navigationBar.style.height = `${Math.ceil(mainImageHeight * 14.75 / 100)}px`;
 }
 
+function resizeNavigationBarMobile() {
+    navigationBar.style.height = '130px';
+}
+
+
 function resizeNavigationBar() {
     const mainImageHeight = mainImageDiv.clientHeight;
     const windowWidth = document.documentElement.clientWidth;
-//console.log(windowWidth);
-    if(windowWidth > 768) {
-        resizeNavigationBarDesktop();
-    } else {
-        navigationBar.style.height = '130px';
-    }
+
+    windowWidth > 768 ? resizeNavigationBarDesktop() : resizeNavigationBarMobile();
 }
 
 /**
@@ -61,8 +58,6 @@ function resizeNavigationBar() {
 function animateText() {
     hiddenTextNodes.forEach(node => node.classList.add('js-show-text-box'));
 }
-
-
 
 /**
  * Event listeners
@@ -84,4 +79,3 @@ document.addEventListener('DOMContentLoaded',  resizeNavigationBar);
  * Animations
  */
 document.addEventListener('DOMContentLoaded',  animateText);
-//document.addEventListener('onmouseover', animateIcon)
