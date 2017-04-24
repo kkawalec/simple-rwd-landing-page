@@ -1,0 +1,40 @@
+.main-image {
+  background-image: url('../img/mobile/Mobile_0000s_0005_Layer-3.png');
+  position: relative;
+  top: 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 0;
+  padding-top: 83.16%;  /* (img-height / img-width * container-width) */
+  margin-bottom: 100px;
+}
+
+.navigation {
+  height: 130px;
+}
+
+.main-image__text-box > p {
+  max-width: 60%;
+}
+
+.main-image__text-box > h2 {
+  margin-top: -10%;
+}
+
+.content__title {
+  flex-direction: row-reverse;
+}
+
+.content__title > h3 {
+  position: absolute;
+  left: 12.5%;
+}
+
+.js-iphone-image {
+  content: url('../img/mobile/mobile_0001_iPhone.png');
+  height: 500px;
+  width: auto;
+  transform: translateY(-85%);
+
+}

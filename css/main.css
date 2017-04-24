@@ -54,10 +54,25 @@ p {
 }
 
 .main-image__text-box {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+    color: #fff;
+  max-width: 75%;
+  margin: auto;
+}
+
+/*.main-image__text-box {
   color: #fff;
   max-width: 65%;
   margin: auto;
-}
+}*/
 
 .main-image__text-box > h2 {
   margin-bottom: 20px;
@@ -72,7 +87,7 @@ p {
 
 
 .content {
-  max-width: 65%;
+  max-width: 75%;
   margin: auto;
 
 }
