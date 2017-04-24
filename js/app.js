@@ -7,6 +7,7 @@ const iphoneImageParent = iphoneImage.parentElement;
 const mainImageDiv = document.querySelector('.main-image');
 const navigationBar = document.querySelector('.navigation');
 
+const hiddenTextNodes = document.querySelectorAll('.js-hidden-text');
 
 // const windowHeight = document.documentElement.clientHeight
 
@@ -52,6 +53,16 @@ function resizeNavigationBar() {
     }
 }
 
+/**
+ * Animations
+ */
+function animateText() {
+    hiddenTextNodes.forEach(node => {
+        console.log(node);
+        node.classList.add('js-show-text-box')});
+  //console.log();
+}
+
 
 
 /**
@@ -69,3 +80,9 @@ document.addEventListener('DOMContentLoaded',  resizeIPhoneImage);
  */
 window.addEventListener('resize', resizeNavigationBar);
 document.addEventListener('DOMContentLoaded',  resizeNavigationBar);
+
+/**
+ * Animations
+ */
+document.addEventListener('DOMContentLoaded',  animateText);
+//document.addEventListener('onmouseover', animateIcon)

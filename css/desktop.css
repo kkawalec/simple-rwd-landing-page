@@ -30,6 +30,26 @@
 
 .navigation__icons--icon {
   margin-right: 75px;
+  /*//transition: all .9s ease-in-out;*/
+  -webkit-transition: all .2s ease-in;
+    -webkit-transform: scale(1);
+    -ms-transition: all .2s ease-in;
+    -ms-transform: scale(1);
+    -moz-transition: all .2s ease-in;
+    -moz-transform: scale(1);
+    transition: all .2s ease-in;
+    transform: scale(1);
+}
+
+.navigation__icons--icon:hover {
+  -webkit-transition: all .2s ease-in;
+  -webkit-transform: scale(1.5);
+  -ms-transition: all .2s ease-in;
+  -ms-transform: scale(1.5);
+  -moz-transition: all .2s ease-in;
+  -moz-transform: scale(1.5);
+  transition: all .2s ease-in;
+  transform: scale(1.5);
 }
 
 .navigation__icons--menu-icon {

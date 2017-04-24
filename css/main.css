@@ -61,9 +61,9 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  color: #fff;
   max-width: 75%;
   margin: auto;
+  color: rgba(0, 0, 0, 0);
 }
 
 .main-image__text-box > h2 {
@@ -160,4 +160,18 @@ h3 {
 
 .u-background-light-green {
   background-color: #73933c;
+}
+
+/**
+ * Animations
+ */
+ .js-show-text-box {
+   color: rgba(256, 256, 256, 1);
+ }
+
+.js-hidden-text {
+  transition: color 3s;
+  -webkit-transition: color 3s;
+  -ms-transition: color 3s;
+  -moz-transition: color 3s;
 }
