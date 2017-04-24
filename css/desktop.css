@@ -13,7 +13,7 @@
   height: 0;
   padding-top: 52.88%;  /* (img-height / img-width * container-width) */
   border-bottom: 2px solid #9bc651;
-  margin-bottom: 100px;
+  margin-bottom: 120px;
 }
 
 .main-image__text-box {
@@ -36,7 +36,7 @@
 }
 
 .navigation__icons--icon {
-  margin-right: 50px;
+  margin-right: 75px;
 }
 
 /**
@@ -47,9 +47,6 @@
   content: url('../img/desktop/Web_0007_iPhone.png');
   height: 874px;
   width: auto;
-
-
-
   transform: translateY(-85%);
 }
 
@@ -61,12 +58,11 @@
 .content__text__row {
   flex: 1;
   padding-right: 20px;
-  color: #a5a5a5;
 }
 
-.content__text__row > p {
+/*.content__text__row > p {
   margin-bottom: 20px;
-}
+}*/
 
 .content__text__row--left-row {
   margin-top: 77px;
@@ -81,9 +77,9 @@
 }
 
 .content__boxes__box--big-box {
-    flex: 2;
+    flex: 80;
 }
 
 .content__boxes__box--small-box {
-    flex: 1;
+    flex: 35;
 }
