@@ -1,3 +1,6 @@
+/**
+ * Top section
+ */
 .main-image {
   background-image: url('../img/mobile/Mobile_0000s_0005_Layer-3.png');
   position: relative;
@@ -22,6 +25,9 @@
   margin-top: -10%;
 }
 
+/**
+ * Content
+ */
 .content__title {
   flex-direction: row-reverse;
 }
@@ -36,5 +42,4 @@
   height: 500px;
   width: auto;
   transform: translateY(-85%);
-
 }

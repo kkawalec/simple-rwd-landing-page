@@ -37,7 +37,6 @@ p {
   left: 0;
   text-align: center;
   height: 140px;
-  /*//height: 14,73%;*/
   display: flex;
   background: rgba(256, 256, 256, 0.7);
 
@@ -62,17 +61,10 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: center;
-
-    color: #fff;
+  color: #fff;
   max-width: 75%;
   margin: auto;
 }
-
-/*.main-image__text-box {
-  color: #fff;
-  max-width: 65%;
-  margin: auto;
-}*/
 
 .main-image__text-box > h2 {
   margin-bottom: 20px;
@@ -111,12 +103,7 @@ p {
 h3 {
   font-size: 35px;
   font-weight: 300;
-  /*color: #767878;*/
 }
-/*.content__title > h3 {
-  color: #767878;
-  font-size: 35px;
-}*/
 
 .content__boxes {
   display: flex;
