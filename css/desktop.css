@@ -97,6 +97,10 @@
   width: 50%;
 }
 
+.content__text__row--column {
+  flex: 1;
+}
+
 /**
  * Bottom boxes
  */
