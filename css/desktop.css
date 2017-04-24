@@ -116,3 +116,14 @@
 .content__boxes__box--small-box {
     flex: 35;
 }
+
+/**
+ * Utilities only for web
+ */
+.u-margin-right-10 {
+ margin-right: 10px;
+}
+
+.u-margin-left-10 {
+ margin-left: 10px;
+}

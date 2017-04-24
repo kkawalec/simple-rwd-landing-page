@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&subset=latin-ext');
 
+@-ms-viewport {
+  width: device-width;
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -172,13 +176,6 @@ h3 {
   background-color: #73933c;
 }
 
-.u-margin-right-10 {
- margin-right: 10px;
-}
-
-.u-margin-left-10 {
- margin-left: 10px;
-}
 
 /**
  * Animations
