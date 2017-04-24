@@ -1,3 +1,7 @@
+/**
+ * Top section and navigation
+ */
+
 /* http://stackoverflow.com/questions/600743/how-to-get-div-height-to-auto-adjust-to-background-size */
 .main-image {
   background-image: url('../img/desktop/Web_0008_Layer-5.png');
@@ -35,6 +39,20 @@
   margin-right: 50px;
 }
 
+/**
+ * Content title, text & iPhone image
+ */
+
+.js-iphone-image {
+  content: url('../img/desktop/Web_0007_iPhone.png');
+  height: 874px;
+  width: auto;
+
+
+
+  transform: translateY(-85%);
+}
+
 .content__text {
   display: flex;
   justify-content: space-between;
@@ -54,6 +72,9 @@
   margin-top: 77px;
 }
 
+/**
+ * Bottom boxes
+ */
 .content__boxes__row {
     display: flex;
     flex-direction: row;

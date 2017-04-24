@@ -87,11 +87,6 @@ h3 {
   color: #767878;
 }
 
-.iphone-image {
-  transform: translateY(-85%);
-  height: 874px;
-}
-
 .content__boxes {
   display: flex;
   flex-direction: column;
@@ -114,6 +109,11 @@ h3 {
 
 .content__boxes__box > p {
   max-width: 330px;
+}
+
+.content__boxes__box > a {
+  text-decoration: none;
+  color: white;
 }
 
 .u-flex-end {
