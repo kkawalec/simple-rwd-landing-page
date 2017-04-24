@@ -47,9 +47,11 @@ function resizeNavigationBarDesktop() {
 function resizeNavigationBar() {
     const mainImageHeight = mainImageDiv.clientHeight;
     const windowWidth = document.documentElement.clientWidth;
-
+//console.log(windowWidth);
     if(windowWidth > 768) {
         resizeNavigationBarDesktop();
+    } else {
+        navigationBar.style.height = '130px';
     }
 }
 
@@ -57,10 +59,7 @@ function resizeNavigationBar() {
  * Animations
  */
 function animateText() {
-    hiddenTextNodes.forEach(node => {
-        console.log(node);
-        node.classList.add('js-show-text-box')});
-  //console.log();
+    hiddenTextNodes.forEach(node => node.classList.add('js-show-text-box'));
 }
 
 
