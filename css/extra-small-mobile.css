@@ -1,0 +1,22 @@
+.navigation > h1 {
+  width: 100%;
+}
+
+.main-image__text-box {
+    align-self: flex-end;
+}
+
+.content__title {
+    flex-direction: row;
+}
+
+.content__title > h3 {
+    position: relative;
+    left: 0;
+    margin-bottom: 20px;
+    margin-top: -20px;
+}
+
+.content__title > img {
+    display: none;
+}

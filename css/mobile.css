@@ -55,7 +55,7 @@
   transform: translateY(-85%);
 }
 
-.content__text__row > p {
+.content__text__row > p, .content__text__row--column > p {
   font-size: 20px;
 }
 

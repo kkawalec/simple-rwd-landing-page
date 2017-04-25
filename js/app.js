@@ -44,10 +44,19 @@ function resizeNavigationBarMobile() {
     navigationBar.style.height = '130px';
 }
 
+function resizeNavigationBarExtraSmallMobile() {
+    navigationBar.style.height = '80px';
+}
+
 
 function resizeNavigationBar() {
     const mainImageHeight = mainImageDiv.clientHeight;
     const windowWidth = document.documentElement.clientWidth;
+
+    if(windowWidth <= 550) {
+        resizeNavigationBarExtraSmallMobile();
+        return;
+    }
 
     windowWidth > 768 ? resizeNavigationBarDesktop() : resizeNavigationBarMobile();
 }
